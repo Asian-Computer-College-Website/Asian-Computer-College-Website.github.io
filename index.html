@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Asian Computer College</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form {
+            width: 1000px; /* Adjust the width as needed */
+        }
+        /* Optional: Center the form within its container */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Be Well, Learn Well, Do Well, Lead Well!</h1>
+    <form>
+        <div>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" placeholder="Zebastian V. Vallecer" required>
+        </div>
+        <div>
+            <label for="Email">Email:</label>
+            <input type=email id="Email" name="Email" placeholder="example@example.com" required>
+        </div>
+        <div>
+            <label for="Phone">Phone:</label>
+            <input type="text" id="Phone" name="Phone" placeholder="+639XXXXXXXXXX" minlength="13" required>
+        </div>
+        <div>
+            <label for="NameStudent">Name Of The Student:</label>
+            <input type="text" id="NameStudent" name="NameStudent" placeholder="Zebastian V. Vallecer" required>
+        </div>
+        <div>
+            <label for title="Sex/Gender">Sex/Gender:</label>
+            <br>
+            <label>Male</label>
+            <input type="radio" name="title" value="Male">
+            <br>
+            <label>Female</label>
+            <input type="radio" name="title" value="Female">
+            <br>
+            <label>Can't Specify</label>
+            <input type="radio" name="title" value="Can't Specify">
+            <br>    
+        </div>
+        <input type="reset">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
