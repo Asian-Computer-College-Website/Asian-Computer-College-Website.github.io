@@ -11,12 +11,14 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(135deg, #ADD8E6, #FFFFE0);
+    background-image: url(ACC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container{
     max-width: 700px;
     width: 100%;
-    background: #FFF;
+    background: #ffffffce;
     padding: 25px 30px;
     border: 5px;
 }
@@ -32,7 +34,7 @@ body{
     bottom: 0;
     height: 3px;
     width: 30px;
-    background: linear-gradient(135deg, #ADD8E6, #FFFFE0);
+    background: linear-gradient(135deg, #ADD8E6 #FFFFE0)
 }
 .container .form .user-details{
     display: flex;
@@ -90,8 +92,8 @@ align-items: center;
 #dot-1:checked ~ .category label .one,
 #dot-2:checked ~ .category label .two,
 #dot-3:checked ~ .category label .three{
-    border-color: #d9d9d9;
-    background: #9b59b6;
+    border-color: #d9d9d9b4;
+    background: #6259b6b4;
  }
 form input[type="radio"]{
     display: none;
@@ -104,16 +106,16 @@ form .button input{
     height: 100%;
     width: 100%;
     outline: none;
-    color: #FFF;
+    color: #ffffffcc;
     border: none;
     font-weight: 500;
     font-size: 18px;
     border-radius: 5px;
     letter-spacing: 1px;
-    background: linear-gradient(135deg, #ADD8E6, #FFFFE0);
+    background: linear-gradient(135deg, #e8f5339c, #ebeb0ac2);
 }
 form .button input:hover{
-    background: linear-gradient(-135deg, #ADD8E6, #FFFFE0);  
+    background: linear-gradient(-135deg, #add8e6d0, #ffffe0c0);  
 }
 @media (max-width: 584px) {
     .container{
