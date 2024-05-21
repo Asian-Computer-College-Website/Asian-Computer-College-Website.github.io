@@ -8,7 +8,7 @@ https://asian-computer-college-website.github.io
 - [x] Make the website using HTML5 and CSS
 - [x] Make the form Work with designs
 - [x] Host the HTML5 and CSS files through online hosting software (in this case using GitHub itself)
-- [ ] Use JavaScript for the website.
-- [ ] Being able to see the submitted form information
-- [ ] Do the other layouts.
+- [x] Use JavaScript for the website.
+- ❓ Being able to see the submitted form information
+- [x] Do the other layouts.
 - [ ] Finally give the whole website to the students.
